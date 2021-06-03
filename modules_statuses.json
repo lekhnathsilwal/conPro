@@ -1,0 +1,10 @@
+{
+    "Agreement": true,
+    "Client": true,
+    "Department": true,
+    "Employee": true,
+    "Group": true,
+    "Organization": true,
+    "User": true,
+    "Hr": true
+}

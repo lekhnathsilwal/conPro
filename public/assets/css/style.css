@@ -1,0 +1,89 @@
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.showby {
+
+    float: right;
+}
+.showby ul
+{
+    display: block;
+}
+.showby ul li
+{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+.showby ul li a
+{
+    color: #2c3a41;
+}
+
+#queue {
+    border: 1px solid #E5E5E5;
+    height: 177px;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 0 3px 3px;
+    width: 300px;
+}
+#search-div
+{
+    width: 500px;
+    min-height: 50px;
+    background:#fff;
+    display: none;
+    float: right;
+    z-index: 1;
+    border: #808080 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 275px;
+    top: 50px;
+    padding: 5px;
+
+}
+#search-div span
+{
+    font-size: medium;
+    min-height: 15px;
+    padding: 5px;
+    background: #808080;
+    border-radius: 5px;
+    width: 100%;
+    color: #fffff1;
+    float: left;
+}
+#search-div a
+{
+    border-bottom: #808080 1px dotted;
+    margin:5px 0px 5px 10px;
+    float: left;
+    text-underline: none;
+    color: #9c2929;
+    width: 90%;
+}
+#search-div a:hover
+{
+    text-decoration: underline;
+}

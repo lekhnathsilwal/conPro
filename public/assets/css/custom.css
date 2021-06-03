@@ -1,0 +1,956 @@
+/*.activeclass{
+	color: #0093A6;
+}
+.inactiveclass{
+	color: #EB2A26;
+}
+
+*/
+
+.navbar-header-text {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #154220 !important;
+}
+
+.nav-tabs>li.active>a {
+    border: 1px solid #c1c1c1 !important;
+    border-bottom-color: transparent !important;
+}
+
+.navbar-header-menu > li.active a {
+    font-weight: bold;
+    color: #ffffff !important;
+    background-color: #154220 !important;
+}
+
+.panel-control .nav-tabs>li:not(.active) {
+    opacity: .9 !important;
+}
+
+.navbar-header:before {
+    background-color: #154220 !important;
+}
+
+#mainnav-menu>.active-link>a, #mainnav-menu>.active-link>a:hover {
+    color: #1a732d  !important;
+    font-weight: bold !important;
+    box-shadow: inset 2px 0 0 0 #1a732d  !important;
+}
+
+#mainnav-menu ul a:hover, .menu-popover .sub-menu ul a:hover, #mainnav-menu ul ul a:hover, .menu-popover .sub-menu ul ul a:hover, #mainnav-menu ul .active-link a, .menu-popover .sub-menu ul .active-link a {
+    color: #1a732d !important;
+    font-weight: bold !important;
+}
+
+.panel-theme{
+    background: #1a732d !important;
+}
+
+.easy-autocomplete input {
+    background-color: #ffffff !important;
+}
+
+.easy-autocomplete-container ul li div {
+    /*font-weight: bold !important;*/
+    color: #444242 !important;
+}
+
+.easy-autocomplete-container ul {
+    background: none repeat scroll 0 0 #eee !important;
+    border-top: 1px dotted #c1c1c1 !important;
+}
+
+.smallChangelink{
+    font-weight: bold;
+    color: #42a5f5;
+    font-style: italic
+}
+
+/*table#demo-dt-basic{
+	width: 100%;
+	display: inline-block;
+	overflow: scroll;
+}*/
+
+.fwb{
+    font-weight: bold !important;
+}
+
+.mt5{
+    margin-top: 5px;
+}
+
+.textright {
+    text-align: -webkit-right;
+}
+
+a.adminMgmtTableBtn {
+    margin-right: 5px;
+}
+td.adminMgmtBtntd {
+    width: 100%;
+    display: flex;
+}
+/*.breadcrumb>.active {
+    color: #00bcd4;
+}*/
+.breadcrumb li.active:before{
+    /*color: #666;*/
+    font-size: 19px;
+}
+.breadcrumb{
+		margin: 10px;
+	}
+/*#mainnav-menu>.active-link>a, #mainnav-menu>.active-link>a:hover,#mainnav-menu>.active-sub>a{
+    color: #fff !important;
+    background: #BF302F !important;
+	cursor: pointer;
+	}*/
+
+/*
+
+
+
+.btn-theme{
+    background-color: #BF302F !important;
+    border-color: #BF302F !important;
+    color: #fff !important;
+}*/
+
+#container.mainnav-sm #mainnav-menu>.active-link>a, #container.mainnav-sm #mainnav-menu>.active-sub>a, #container.mainnav-sm #mainnav-menu>.active-link a:hover, #container.mainnav-sm #mainnav-menu>.active-sub a:hover {
+    background-color: #BF302F;
+    box-shadow: none;
+}
+
+.tableBottomPagination {
+    display: block;
+    /*height: 35px;*/
+    margin: auto;
+    width: 100%;
+    text-align: -webkit-center;
+    /*line-height: 32px;*/
+}
+
+table.adminMgmtTable>tbody>tr>td {
+    color: #000 !important;
+	}
+/*.breadcrumb li a{
+    color: #000 !important;
+}*/
+ol.breadcrumb li.active {
+    margin-left: 5px;
+    
+}
+/*li.active:before {
+    content: "/" !important;
+    margin-right: 5px !important;
+    font-size: 20px;
+    font-style: italic;
+}*/
+.breadcrumb {
+    font-size: 14px;
+}
+.pageTitle{
+    float: left;
+    padding-left: 10px;
+}
+
+.adminPanelSearchWrapper {
+    width: 250px;
+    display: -webkit-inline-box;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    /* top: 1px; */
+}
+input.flipkart-navbar-input {
+    width:95%;
+    left: 0px !important;
+    position: absolute;
+    height: 32px;
+}
+button.flipkart-navbar-button {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+      height: 32px;
+}
+/*.searchPlace{
+    border: 1px solid;
+    height: 30px;
+    width:10%;
+}*/
+
+.errorSearch{
+    margin-top: -14px;
+    float: left;
+    font-size: 12px;
+    color: #bf3130;
+}
+
+.breadcrumb li, .breadcrumb li a,ol.breadcrumb li.active,.breadcrumb>li+li:before {
+    color: #2b425b !important;
+    font-weight: 700 !important;
+}
+.breadcrumb>li+li:before {
+    content: "/" !important;
+}
+.row.pageHeading {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #5b5b5b;
+}
+.adminMgmtPageContent {
+    padding-top: 0px !important;
+}
+.searchWrapperPosition{
+    position: relative;
+}
+a.breadCrumbRightBackBtn,a.breadCrumbRightBackBtn:hover,a.breadCrumbRightBackBtn:focus {
+    color: #fff;
+    float: right;
+    padding: 4px 15px;
+    font-weight: 700;
+    border:none;
+    background:#249e92;
+}
+
+
+
+
+
+
+/*media queries*/
+
+@media (max-width: 1236px) {
+    table.adminMgmtTable{
+		width: 100%;
+		display: inline-block;
+		overflow: scroll;
+	}
+	/*.adminPanelSearchWrapper{
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    }
+    .searchPlace{
+         -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+    width: 2%;
+    display: -webkit-inline-box;
+    margin: 0 auto;}*/
+    
+}
+
+@media (max-width: 768px){
+/*#container.mainnav-sm #mainnav-container{
+    width: 50px;
+    left: 0;
+	}*/
+	 #container.mainnav-sm #navbar a.navbar-brand {
+		 color: #fff;
+		 padding-left: 4%;
+	 }
+	/*span.menu-title {
+    display: none;
+	}*/
+	/*.adminMgmtPageContent,.breadcrumb,#footer p {
+    margin-left: 13%;
+	}*/
+	/*#mainnav-menu i {
+    padding: 0px !important;
+	}*/
+	
+	table.adminMgmtTable>thead>tr>th {
+    font-size: 12px !important;
+	}
+	
+}
+
+
+.form-horizontal .control-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.text-dark{
+    margin-top: 8px;
+}
+
+
+.borderless-panel:after{
+  border:none !important;
+}
+
+.lobibox.lobibox-confirm .lobibox-header, .lobibox.lobibox-confirm .lobibox-footer{
+    background-color: #005d69 !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px){
+#container.mainnav-sm #mainnav-container, #container.mainnav-sm #navbar .navbar-brand {
+    width: 16.8%;
+    left: 0;
+	}
+}
+@media (min-width: 320px)and (max-width:767px){
+	#container.mainnav-in #content-container{
+     left: 0px !important; 
+	}
+}
+@media (min-width:320px) and (max-width:480px){
+    a.addBtnAdminPanel {
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    top: 37%;
+    }
+    .adminMgmtTable {
+    margin-top: 25px;
+    }
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.magic-checkbox+label {
+ /*   min-width: 16px;
+    min-height: 16px;
+    float: left;
+    margin-right: 10px;*/
+}
+small.help-block.text-dark {
+    margin-top: 0;
+}
+ol.breadcrumb{
+    padding: 6px;
+}
+
+.mainnav-sm:active span.brand-text{
+    display: none;
+}
+
+
+.form-control {
+    border: 1px solid #ccc7c7e3 !important;
+}
+
+
+
+/**
+*For printable layouts
+*/
+
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
+
+.mainContainWrapper {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 50px 50px;
+}
+
+.NameWithContactDetail {
+    margin-right: -15px;
+    text-align: center;
+    color: #0094ff;
+}
+
+h4.affiliated, h4.panNumber {
+    font-weight: bold;
+}
+
+h4.panNumber {
+    text-align: right;
+}
+
+.taxInvoiceDetailWrapper {
+    width: auto;
+    padding: 0px 15px;
+}
+
+h4.personNameOfTaxInvoice {
+    text-transform: uppercase;
+}
+
+.taxTitle {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:5%;
+}
+
+.age {
+    text-align: center;
+    line-height: 90px;
+}
+
+.invoiceTable tbody tr td, .invoiceTable tbody tr th {
+    border: transparent;
+}
+
+.invoiceRegBorder {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+th.sn {
+    width: 1%;
+}
+
+th.invoiceAmount, th.invoiceQnty, th.invoiceRate {
+    width: 10%;
+}
+
+.NameWithContactDetail h1 {
+    font-size: xx-large;
+}
+
+td.totalTopBorder {
+    border-top: 1px solid #ccc !important;
+}
+
+/*dr.saathi pharmacy pvt ltd css*/
+.dateTimeWrapper,.orderStatus,.driverdetail{
+    text-align:right;
+}
+.orderStatus{
+    margin-top:3%;
+}
+.drivername{
+    text-transform:capitalize;
+}
+.invoiceTitle{
+    font-size:18px !important;
+}
+.billModeMarginBottom{
+    margin-bottom:40px;
+}
+.patientNameWithPrecribed{
+    border-style:double;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+}
+.dealerName{
+    text-transform:uppercase;
+}
+.driverDetail{
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+.totalAmountInWord{
+    margin-bottom:15px;
+}
+.BankDetailWrapper{
+    padding-left:0px;
+}
+.BankDetail{
+    text-decoration:underline;
+}
+
+
+/** For clcok **/
+li.clock {
+        width: 265px;
+    padding-left: 12px;
+    /* background: #00b3ca; */
+    /* color: #fff; */
+    padding-top: 12px;
+}
+
+
+.dashboardIcon{
+    padding: 35px 0 30px 0;
+}
+
+.fs38{
+    font-size: 38px;
+}
+
+.mr20{
+    margin-right: 20px;
+}
+
+.pull-center {
+    float: right;
+    /* text-align: center; */
+    margin-right: 80px;
+}
+
+.custompanel {
+    border-radius: 0;
+    border: 1px solid #e7ecf3;
+    border-bottom: 1px solid rgba(0,0,0,0.17);
+    margin-bottom: 15px;
+    height: 251px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 465px) {
+    .taxInvoiceDetailWrapper {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 465px) and (max-width: 746px) {
+    .NameWithContactDetail h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .NameWithContactDetail h4 {
+        font-size: 12px;
+    }
+
+    .affiliated {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .taxTitle {
+        font-size: 12px;
+    }
+
+    .personDetail h3, .personDetail h4 {
+        font-size: 12px;
+    }
+
+    .invoiceTable tbody tr td, .invoiceTable tbody tr th {
+        font-size: 12px;
+    }
+}
+/* hidingthe content */
+#printthiscontent {
+    display: none;
+}
+
+.pageSearchBtn{
+    float: left;
+    margin-right: 5px;
+}
+
+.SearchTextBox {
+    height: 34px !important;
+}
+
+.adminPanelSearchWrapperProduct {
+    width: 250px;
+    display: -webkit-inline-box;
+    margin: 0 auto;
+    left: 0;
+    /* top: 1px; */
+}
+.btnFitHeight{
+    height: 34px;
+}
+
+/** added by Rabi 29th June 17**/
+.fs{
+    font-size: 1.6em !important;
+}
+/** added by Rabi Ends**/
+
+/** added by lal **/
+/** customize lobibox notification **/
+
+.lobibox-notify.lobibox-notify-success {
+    border-color: #00bcd4 !important;
+    background-color: #00bcd4 !important;
+    color: #FFF !important;
+}
+
+/** customize lobibox notification ends **/
+/** added by lal **/
+
+.innerTable{
+    margin-bottom: 0 !important;
+}
+
+.innerTable td{
+    border: none !important;
+}
+
+.bb{
+    border-bottom:1px solid #e9e9e9 !important;
+}
+
+.required_color{
+    color: #FF5722 !important;
+}
+
+.required_fields{
+    float: right;
+    font-size: 12px;
+}
+
+/*------added img--------*/
+.fa-bandcamp{
+    display:none;
+    
+}
+/*
+.mainnav-sm .brand-text {
+    position: absolute !important;
+    left: 3px !important;
+    font-size: 12px !important;
+}
+*/
+.mainnav-lg .fa-bandcamp{
+    display:none;
+   
+}
+.mainnav-sm .fa-bandcamp{
+    display:block;
+     position: relative !important;
+    left: -24px !important;
+    top: 10px !important;
+}
+.mainnav-sm .brand-text{
+    display:none;
+    
+}
+
+@media (min-width: 300px) and (max-width:412px){
+    .mainnav-sm .brand-text{
+    display:block;
+}
+.mainnav-sm .fa-bandcamp{
+    display:none;
+}
+
+    
+}
+
+.wt-no-baggage{
+    font-size: 15px;
+    color: black;
+    margin: 9px 0px 0px 5px;
+}
+
+.error-container-baggage{
+    font-weight: 600;
+    color: red;
+    margin: 0 0px 15px 136px;
+}
+
+.magic-radio+label:before, .magic-checkbox+label:before {
+   border: 1px solid #8e8585 !important;
+}
+
+.magic-radio+label:after {
+    top: 3.5px !important;
+    left: 3.5px !important;
+}
+
+.dashboardIconText {
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/*div#page-content {
+    margin-top: 50px;
+}*/
+/*
+ol.breadcrumb {
+     margin: 8px 0px -10px 8px;
+}*/
+
+a.navbar-header-text {
+    color: #ffffff !important;
+}
+
+a.dropdown-toggle.text-right {
+    color: #ffffff;
+}
+
+.navbar-top-links>li>a:hover {
+    background-color: #154220 !important;
+    color: #ffffff !important;
+}
+
+.dashboard-menu {
+    border: 1px solid rgba(0,0,0,0.17) !important;
+}
+
+.home-menu-custom .col-sm-2 {
+    width: 12% !important;
+}
+
+.fs11 {
+    font-size: 11px !important;
+}
+
+.navbar-top-links>.open>a, .navbar-top-links>.open>a:focus {
+    background-color: #154220  !important;
+    color: #fffff1 !important;
+}
+
+.alert-custom {
+    background-color: #ffffff !important;
+    border-color: transparent !important;
+    border-left: 3px solid #648e33 !important;
+    color: #0e8813 !important;
+}
+
+.customer.dropdown-menu:not(.head-list)>li>a:hover {
+    background-color: #208177;
+    color: #fff !important;
+}
+
+.popover-content {
+    color: #000000 !important;
+}
+
+.text-success {
+    color: #3c763d !important;
+}
+
+.container-booking-popover .popover {
+    max-width: 400px !important;
+    width: 400px !important;
+}
+
+.container-booking-popover-two .popover {
+    max-width: 700px !important;
+    width: 700px !important;
+}
+
+.booking-details-tbl td {
+    font-weight: 600;
+    color: #000000;
+}
+
+.booking-payment-menus{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-payment-img {
+    max-height: 50px;
+    border: 1px solid #e5e5e5;
+    margin-right: 15px;
+}
+
+.booking-payment-label{
+    font-weight: 600 !important;
+    color: #353334;
+}
+
+.bootbox-body {
+    text-align: center;
+    font-weight: bold;
+    color: #272626;
+}
+
+.bok-confirm-header{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.bok-confirm-text{
+    font-weight: 600 !important;
+}
+
+.ticket-issue-dialog-text{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.tt-menu {
+    box-shadow: 0 0 16px 5px rgba(0,0,0,.19) !important;
+    margin-top: 0px !important;
+    color: #5a5656 !important;
+    margin-top: 2px !important;
+}
+
+.tt-suggestion {
+    font-size: 13px !important;
+}
+
+
+table.table.table-bordered.reportsTable {
+    white-space: nowrap !important;
+    font-weight: 600;
+}
+
+.magic-radio+label:before, .magic-checkbox+label:before {
+    width: 18px !important;
+    height: 17px !important;
+ }
+
+.ui-sortable tr {
+    cursor:pointer;
+}
+
+.ui-sortable tr:hover {
+    background: #f5f4f4 !important;
+}
+
+
+/* DATE PICKER */
+.ui-datepicker {
+    border-radius: 0px !important;
+    font-family: "Fira Sans", sans-serif !important;
+    padding: 0 !important;
+    z-index: 5555 !important;
+}
+
+.ui-datepicker-group.ui-datepicker-group-last {
+    border-left: 1px solid #ddd;
+}
+
+.ui-datepicker-header{
+    border-radius: 0px !important;
+}
+
+.ui-timepicker-div {
+    padding-top: 10px;
+    border-top: 1px solid #c5c5c5;
+}
+
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-month,
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year {
+    width: 40%;
+    background: none;
+    border: none;
+    height: 25px;
+    margin: 0 5%;
+}
+
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-month option ,
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year option {
+    color: #3b5996;
+}
+
+.ui-datepicker th {
+    font-weight: 500 !important;
+}
+
+.ui-datepicker-calendar td{
+    position: relative;
+    height: 34px;
+    width: 50px;
+    padding: 0 !important;
+    cursor: pointer;
+    /* border: 1px solid #e6e6e6 !important; */
+}
+
+.ui-datepicker-calendar td > a{
+    text-align: center !important;
+    border: none !important;
+    background: none !important;
+}
+
+.ui-datepicker-calendar td > span{
+    text-align: center !important;
+    border: none !important;
+    background: none !important;
+}
+
+.ui-datepicker-calendar td > a.ui-state-active {
+    color: #fff !important;
+}
+
+.ui-datepicker-calendar td > a.ui-state-highlight {
+    border: 1px solid #dcd7d7;
+    background: #eeeeee;
+    color: #fff;
+}
+
+.ui-datepicker-today {
+    border: 1px solid #c1272d !important;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-today > a.ui-state-highlight {
+    color: #c1272d;
+}
+
+.ui-datepicker-today {
+    border: 1px solid #C1272D !important;
+    background: none;
+    font-weight: normal;
+    color: #C1272D !important;
+}
+
+.ui-datepicker .ui-datepicker-current-day,
+.ui-datepicker-calendar td:hover {
+    background: #C1272D;
+    border: none !important;
+}
+
+.ui-datepicker .ui-datepicker-current-day a,
+.ui-datepicker-calendar td:hover a {
+    color: #FFF;
+}
+
+.ui-datepicker-custom-btm {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-top: 1px solid #e9e9e9;
+    margin: .1em 0 0 0 !important;
+    padding: 5px 0.5em;
+}
+
+.ui-datepicker-calendar td > a:hover{
+    color: #ffffff !important;
+}
+
+.form-control {
+    height: inherit;
+}
+
+@media only screen and (max-width: 991px){
+    .boxed{
+        margin-top: 0px !important;
+    }
+    .home-menu-custom .col-sm-2{
+        width: 33.33% !important;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .home-menu-custom .col-sm-2{
+        width: 50% !important;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .home-menu-custom .col-sm-2{
+        width: 100% !important;
+    }
+}
